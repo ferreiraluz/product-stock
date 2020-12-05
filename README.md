@@ -14,4 +14,4 @@
 
 # IS OPEN SOURCE.
 
-## The database config was hidden for security measures. But the config file was in the file "src/database/config/db.js" and imported in "src/database/models.js" and models.js was exported to the app.js.
+## The database config was hidden for security measures. But the config file would be in the file "src/database/config/db.js" and imported in "src/database/models.js" and that your turn was exported to the app.js.
