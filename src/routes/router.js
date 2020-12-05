@@ -19,7 +19,7 @@ res.render("register")
 
 router.post("/registered", (req, res) => {
 
-res.send(`Product: ${req.body.product}<br> amount: ${req.body.amount} <br> actual value: ${req.body.value}`)
+res.send(`Product: ${req.body.product}<br> amount: ${req.body.amount} <br> actual value: ${req.body.value} <br> applied discount: ${req.body.discount}`)
 });
 
 module.exports = router;

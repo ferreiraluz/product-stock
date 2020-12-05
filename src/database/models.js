@@ -15,6 +15,10 @@ const Product = sequelize.define('Product', ({
         type: Sequelize.INTEGER,
         allowNull: false
     },
+    discount: {
+        type: Sequelize.INTEGER,
+        allowNull: false
+    }
 }));
 
 sequelize.sync();
